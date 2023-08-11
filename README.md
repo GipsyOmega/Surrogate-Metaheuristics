@@ -12,15 +12,15 @@ Short summary of the minimal requirements:
 
 **Note:** all other necessary build tools and dependencies are shipped with the source code or are downloaded automatically.
 1. In case, you do not have the required dependencies, kindly install using the following code
-```
-pip install -r requirements.txt
-```
+  ```
+  pip install -r requirements.txt
+  ```
 2. If you have these dependenies installed, you can create a local repository by cloning the repository:
-```
-git clone https://github.com/GipsyOmega/Surrogate-Metaheuristics.git
-```
+  ```
+  git clone https://github.com/GipsyOmega/Surrogate-Metaheuristics.git
+  ```
 3. Run the project using
-```
-python CSASurrogate.py
-```
+  ```
+  python CSASurrogate.py
+  ```
 This research paper/project is conducted under the Fluid Mechanics Group of Delhi Technological University, supervised by Prof. XX.
