@@ -8,9 +8,7 @@ arXiv preprint arXiv:2307.13612.
 ## Gurney Flap Code Installation
 
 Short summary of the minimal requirements:
-
-- C/C++ compiler
-- Python 3
+* [Python 3+](https://www.python.org/)
 
 **Note:** all other necessary build tools and dependencies are shipped with the source code or are downloaded automatically.
 1. In case, you do not have the required dependencies, kindly install using the following code
