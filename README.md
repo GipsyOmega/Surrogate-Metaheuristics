@@ -5,19 +5,7 @@ Enhancing aerodynamic efficiency is vital for optimizing aircraft performance an
 "Tyagi, A., Singh, P., Rao, A., Kumar, G. and Singh, R.K., 2023. A Novel Framework for Optimizing Gurney Flaps using RBF Neural Network and Cuckoo Search Algorithm." 
 arXiv preprint arXiv:2307.13612.
 
-# Gurney Flap Code Installation
-
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
-Continuous Integration:<br/>
-[![Regression Testing](https://github.com/su2code/SU2/workflows/Regression%20Testing/badge.svg?branch=develop)](https://github.com/su2code/SU2/actions)
-[![Release](https://github.com/su2code/SU2/workflows/Release%20Management/badge.svg?branch=develop)](https://github.com/su2code/SU2/actions)
-
-Code Quality:<br/>
-[![CodeFactor](https://www.codefactor.io/repository/github/su2code/su2/badge)](https://www.codefactor.io/repository/github/su2code/su2)
-
-## Build SU2
-The build system of SU2 is based on a combination of [meson](http://mesonbuild.com/) (as the front-end) and [ninja](https://ninja-build.org/) (as the back-end). Meson is an open source build system meant to be both extremely fast, and, even more importantly, as user friendly as possible. Ninja is a small low-level build system with a focus on speed. 
+## Gurney Flap Code Installation
 
 Short summary of the minimal requirements:
 
@@ -26,8 +14,8 @@ Short summary of the minimal requirements:
 
 **Note:** all other necessary build tools and dependencies are shipped with the source code or are downloaded automatically.
 
-If you have these tools installed, you can create a configuration using the `meson.py` found in the root source code folder:
+If you have these dependenies installed, you can create a local repository and use the given code by cloning:
 ```
-./meson.py build
+git clone 
 ```
 
