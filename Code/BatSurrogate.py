@@ -36,13 +36,13 @@ dim = 2
 
 # 12:22
 
-''' Helper Functions '''
+
 def initialize():
     global X
     X = np.stack((dp1, dp2, dp3, dp4, dp5))
     return X
 
-
+''' Main Optimisation Class '''
 class Bat():
     def __init__(self, pop_size=pop_size, dim=dim, iterations=iterations, lower=lower, upper=upper):
         self.pop_size = pop_size
@@ -186,7 +186,7 @@ gwo = GWO(pop_size=pop_size, dim=dim,
 woa = WOA(pop_size=pop_size, dim=dim,
           iterations=iterations, lower=lower, upper=upper)
 
-
+''' Experimentation '''
 N, I = 10, 81
 start = time.time()
 y = np.zeros((N, I))
@@ -244,6 +244,7 @@ df.to_csv("MH-Parameters.csv", index_label=False)
 x = np.linspace(0, I, I)  # X-axis points  # Y-axis points
 
 ''' Plotting the graphs '''
+
 plt.plot(x, y, label="BA")  # Plot the chart
 plt.plot(x, y_cuckoo, label="CSA")
 plt.plot(x, y_pso, label='PSO')
