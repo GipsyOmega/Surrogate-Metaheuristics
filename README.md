@@ -15,7 +15,7 @@ Short summary of the minimal requirements:
 ```
 pip install -r requirements.txt
 ```
-2. If you have these dependenies installed, you can create a local repository and use the given code by cloning:
+2. If you have these dependenies installed, you can create a local repository by cloning the repository:
 ```
 git clone https://github.com/GipsyOmega/Surrogate-Metaheuristics.git
 ```
