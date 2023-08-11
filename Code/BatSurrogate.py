@@ -1,3 +1,4 @@
+''' Importing the required dependencies  '''
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -35,7 +36,7 @@ dim = 2
 
 # 12:22
 
-
+''' Helper Functions '''
 def initialize():
     global X
     X = np.stack((dp1, dp2, dp3, dp4, dp5))
@@ -131,17 +132,6 @@ class Bat():
                 #index = 0
                 if (np.random.rand() > self.r[i]):
                     # freq = np.where(self.f == self.f.max())
-                    '''
-                    freq = self.f.max()
-                    for i in self.pop_size:
-                        if self.f[i] == freq:
-                            index = i
-
-                    # New Local Position
-                    self.X[index] = self.X[index] + \
-                        np.random.unique(-1, 1, 1) * self.A[index]
-                    '''
-
                     for j in range(self.dim):
                         self.X[i][j] = self.pbest[j] + \
                             (np.random.uniform(-1, 1, 1)) * \
@@ -253,6 +243,7 @@ df.to_csv("MH-Parameters.csv", index_label=False)
 
 x = np.linspace(0, I, I)  # X-axis points  # Y-axis points
 
+''' Plotting the graphs '''
 plt.plot(x, y, label="BA")  # Plot the chart
 plt.plot(x, y_cuckoo, label="CSA")
 plt.plot(x, y_pso, label='PSO')
