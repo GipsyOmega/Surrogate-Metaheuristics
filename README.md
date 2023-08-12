@@ -23,4 +23,4 @@ Short summary of the minimal requirements:
   ```
   python CSASurrogate.py
   ```
-This research paper/project is conducted under the Fluid Mechanics Group of Delhi Technological University, supervised by Prof. XX.
+This research paper/project is conducted under the Fluid Mechanics Group of Delhi Technological University, supervised by Prof. Raj Kumar Singh.
